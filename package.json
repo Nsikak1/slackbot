@@ -1,0 +1,28 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "A slack bot for updating hng workspace with build reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Nsikak1/slackbot.git"
+  },
+  "keywords": [
+    "slackbot"
+  ],
+  "author": "Christopher Nsikak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nsikak1/slackbot/issues"
+  },
+  "homepage": "https://github.com/Nsikak1/slackbot#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0"
+  }
+}
